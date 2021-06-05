@@ -13,12 +13,12 @@
             <div 
             v-for="tag of tags"
             :key="tag.slug"
-            class="block transform h-64 bg-red-500 transition duration-200 hover:scale-105 flex flex-col items-start justify-end col-span-6 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-3"
+            class="block transform h-64 bg-red-500 transition duration-200 hover:scale-105 flex flex-col items-start justify-end col-span-12 rounded-xl group md:col-span-6 xl:col-span-3"
             :style="{ 'background-color': tag.color }"
             >
                 <NuxtLink :to="`/blog/tag/${tag.slug}`" class="absolute w-full h-full py-8 text-white px-5">
                     <h2 class="mb-3 text-2xl font-bold">{{ tag.name }} </h2>
-                    <p class="mb-2 text-md font-bold text-white-100 opacity-100">{{ tag.description }}</p>
+                    <p class="mb-2 text-sm font-bold text-white-100 opacity-100">{{ tag.description }}</p>
                 </NuxtLink>
             </div>
         </div>
