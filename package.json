@@ -1,0 +1,24 @@
+{
+  "name": "retech-tips",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@tailwindcss/typography": "^0.4.1",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3",
+    "prism-themes": "^1.7.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.9",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "postcss": "^8.2.8"
+  }
+}
