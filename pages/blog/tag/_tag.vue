@@ -77,6 +77,19 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
+  },
+  head() {
+  return {
+    title: this.tag.name + ' - real estate tech tips',
+    meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      {
+        hid: 'description',
+        name: 'description',
+        content: this.tag.description
+      }
+    ]
   }
+}
 }
 </script>
