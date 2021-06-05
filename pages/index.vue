@@ -3,17 +3,17 @@
 <TheHeader />
 <section id="topics" class="relative w-full bg-white">
     <div class="absolute w-full h-32 bg-gradient-to-b from-gray-100 to-white"></div>
-    <div class="relative w-full px-5 py-10 mx-auto sm:py-8 md:py-12 md:px-8 max-w-7xl">
+    <div class="relative w-full px-3 py-10 mx-auto sm:py-6 md:py-12 md:px-8 max-w-7xl">
 
         <h1 class="mb-2 text-4xl font-extrabold leading-none text-gray-900 lg:text-3xl xl:text-4xl sm:mb-3"><a href="#_">Real Estate Tech Tips</a></h1>
         <p class="text-lg font-medium text-gray-800">Discover ways technology can empower your real estate processes. See our latest articles on strategies, tutorials, and more.</p>
         <hr class="mt-7">
         <h3 class="mb-1 mt-10 text-2xl font-bold leading-none text-gray-900 lg:text-2xl xl:text-2xl">Browse by Topic:</h3>
-        <div class="flex grid h-1/2 grid-cols-12 gap-10 pb-3 mt-8 sm:mt-6">
+        <div class="flex grid h-1/2 grid-cols-12 gap-4 pb-3 mt-8 sm:mt-6">
             <div 
             v-for="tag of tags"
             :key="tag.slug"
-            class="block transform h-64 bg-red-500 transition duration-200 hover:scale-105 flex flex-col items-start justify-end col-span-12 rounded-xl group md:col-span-6 xl:col-span-3"
+            class="block transform h-64 transition duration-200 hover:scale-105 flex flex-col items-start col-span-12 rounded-xl group md:col-span-6 xl:col-span-3"
             :style="{ 'background-color': tag.color }"
             >
                 <NuxtLink :to="`/blog/tag/${tag.slug}`" class="absolute w-full h-full py-8 text-white px-5">
