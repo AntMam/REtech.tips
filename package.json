@@ -13,7 +13,8 @@
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "prism-themes": "^1.7.0"
+    "prism-themes": "^1.7.0",
+    "vue-disqus": "^4.0.1"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.0.9",

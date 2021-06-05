@@ -30,7 +30,11 @@
       <h1 class="font-bold text-4xl">{{ article.title }}</h1>
       <p class="mt-4 prose">{{ article.description }}</p>
       <p class="pb-4 mt-4">Post last updated: {{ formatDate(article.updatedAt) }}</p>
-      <nuxt-content class="prose" :document="article" />
+      <nuxt-content class="prose mt-4" :document="article" />
+
+      <div class="comments mt-4 mb-4">
+        <Disqus />
+      </div>
       <!-- content author component -->
       <author :author="article.author" />
       <!-- prevNext component -->
@@ -66,8 +70,22 @@ export default {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
+  },
+  head() {
+  return {
+    title: this.article.title,
+    meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      {
+        hid: 'description',
+        name: 'description',
+        content: this.article.description
+      }
+    ]
   }
 }
+}
+  
 </script>
 
 <style>
