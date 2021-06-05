@@ -12,7 +12,7 @@
     <div class="relative flex mx-auto px-3 py-3 w-full text-2xl justify-center mb-2">
       <h2> {{articles[0].author.name}} </h2>
     </div>
-    <div class="relative flex mx-auto px-3 py-5 w-full justify-center text-lg mb-4">
+    <div class="relative flex mx-auto px-3 py-5 w-3/4 justify-center text-lg mb-4">
       <p> {{articles[0].author.bio}} </p>
     </div>
     <div class="flex mx-auto justify-center">
@@ -67,5 +67,18 @@ export default {
       tags
     }
   },
+  head() {
+  return {
+    title: 'Contact ' + this.articles[0].author.name,
+    meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+      {
+        hid: 'description',
+        name: 'description',
+        content: this.articles[0].author.bio
+      }
+    ]
+  }
+}
 }
 </script>

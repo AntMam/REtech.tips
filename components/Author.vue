@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full px-2 xs:mb-6 md:mb-12 article-card border-3 border-gray-500">
+  <div class="w-full px-2 xs:mb-6 md:mb-12 article-card border-3 border-gray-500 justify-center">
     <NuxtLink
       :to="`/blog/author/${author.name}`"
-      class="flex p-7 transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md"
+      class="flex p-2 transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md"
     >
       <img
         v-if="author.img"
-        class="h-45 md:w-1/3 xxlmin:w-1/3 rounded-full xxlmax:w-1/3"
+        class="h-40 rounded-full"
          :src="require(`/assets/images/${author.img}`)"
       />
       <div class="flex flex-col m-4 justify-center">
