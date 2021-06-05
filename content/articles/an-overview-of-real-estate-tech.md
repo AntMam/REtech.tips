@@ -12,7 +12,7 @@ author:
 tags:
   - brokerage
   - management
-  - marketing
+  
   
 ---
 ## Real Estate Tech Spans a Broad Range:
