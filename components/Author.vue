@@ -1,18 +1,18 @@
 <template>
-  <div class="w-full px-2 xs:mb-6 md:mb-12 article-card border-3 border-gray-500 justify-center">
+  <div class="w-full p-6 transition-shadow duration-150 ease-in-out shadow-md hover:shadow-lg mb-6">
     <NuxtLink
       :to="`/blog/author/${author.name}`"
-      class="flex p-2 transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md"
+      class="p-2"
     >
       <img
         v-if="author.img"
-        class="h-40 rounded-full"
+        class="h-40 mx-auto rounded-full"
          :src="require(`/assets/images/${author.img}`)"
       />
-      <div class="flex flex-col m-4 justify-center">
-        <h4 class="font-semibold">Author</h4>
+      <div class=" flex-col m-4">
+        <h4 class="font-bold">Author</h4>
 
-        <p class=" mt-4">{{ author.name }}</p>
+        <p class="mt-4 mb-2 font-semibold">{{ author.name }}</p>
         <p>{{ author.bio }}</p>
       </div>
     </NuxtLink>
