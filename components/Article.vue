@@ -7,7 +7,7 @@
       <div class="relative flex flex-col items-start grid grid-cols-12 px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
           <div
           v-for="(tag, id) in article.tags" :key="id"
-          class="bg-yellow-400 relative top-0 col-span-4 -mt-10 px-1 py-1.5 leading-none rounded-full text-m font-medium uppercase text-white text-center md:text-xs lg:text-xs"
+          class="bg-yellow-400 relative top-0 col-span-4 -mt-10 px-1 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white text-center lg:text-lg"
           :style="{ 'background-color': tags[tag].color }"
           >
             <span>{{tag}}</span>
