@@ -18,7 +18,7 @@
             >
                 <NuxtLink :to="`/blog/tag/${tag.slug}`" class="absolute w-full h-full py-8 text-white px-5">
                     <h2 class="mb-3 text-2xl font-bold">{{ tag.name }} </h2>
-                    <p class="mb-2 text-sm font-bold text-white-100 opacity-100 md:text-md">{{ tag.description }}</p>
+                    <p class="mb-2 text-md text-white-100 opacity-100 md:text-md">{{ tag.description }}</p>
                 </NuxtLink>
             </div>
         </div>
