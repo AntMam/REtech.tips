@@ -7,7 +7,7 @@ author:
   name: Anthony Mameli
   email: ant.retech.tips@gmail.com
   github: antmam 
-  bio: Using, building, and writing about real estate tech. I've been a real estate broker for over 7 years. After growing tired of the tools I used, I built my own and decided to share my experiences.
+  bio: Using, building, and writing about real estate tech. I've been in the real estate business for over 7 years. After growing tired of the tools I used, I decided to learn more about technology and software development. Now I'd like to share the experiences I've made to help other real estate professionals and software developers in the field.
   img: anthony-mameli.jpg
 tags:
   - brokerage
@@ -35,26 +35,30 @@ The total value of US commercial real estate is estimated to be between [$14 and
 
 ![](https://www.venturescanner.com/wp-content/uploads/Q4-2019-Real-Estate-Technology-Funding-Blog-Image.jpg)
 
-__We all know COVID dominated 2020. Regardless, over $17 billion was poured into the space.__
-
+__We all know COVID dominated 2020. Regardless, over $17 billion was poured into proptech, with many companies implementing new technologies to keep operating in this new world.__
 
 ## So what does this mean?
 
-There are numerous amounts of companies out there now competing for a share of the crowded market.  I've used many of these technologies since I started my career in 2014. I feel lucky I learned from the traditional processes of brokerage and discovered the problems for myself. 
+The industry is changing, and year over year more companies are entering the sector. Some great advancements over the past few years:
 
-Traditional construction methods? - modular builds and 3D printing have entered the chat.
+- Data has become more accessible. Municipalities have embraced open data - sharing parcel, assessment and other information that used to be hidden behind a high price tag. Proprietary platforms increasingly have API's, making transfer of information easier.
 
-Phonebooks / directories? - they have been replaced by data providers and API's.
+- Modular and 3D printed properties have popped up across the globe. Pre-fabricated methods are slashing costs and build times compared to traditional methods in many cases.
 
-Physical maps? - they've went digital a while ago, with counties also offering their parcel data for free.
+- The internet of things has become more prevalent, smart devices have changed the way we manage our spaces.
 
-Paying $5,000 for 3D Models of your space? - LiDAR scanners have made their way into phones, you can create them on you own. 
+- LiDAR scanners have made their way into our smartphones. Creating 3D models used to require an architect or design professional, now it is within reach of the everyday consumer.
 
-The list goes on. 
+- Listing platforms have grown larger, changing the way buyers, tenants, and owners look for and advertise properties.
 
-## Welcome to REtech.tips
+- Blockchain has gained more and more adoption. It's only a matter of time before it changes the way real estate is transacted.
 
-I'll be writing about trends, systems, and technologies you can implement in your business. I'll be going over technologies I've used, built, and learned about. Subscribe to the newsletter and you'll get updates as they come.
+__The list goes on. In order to compete, professionals will need to learn and adapt.__ 
+
+## The goal of REtech.tips is to provide valuable information on how to utilize these new technologies.  
+
+We will write about real ways these tools can make your work more efficient. We'll include templates, tutorials, processes, and other content designed to provide the most valuable information. Subscribe to the newsletter, we'll send you updates when new articles are posted.
+
 
 
 
