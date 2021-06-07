@@ -37,6 +37,8 @@
       </div>
       <!-- content author component -->
       <author :author="article.author" />
+      <!-- Footer -->
+      <Footer />
       <!-- prevNext component -->
       <h4 class="font-bold text-2xl text-center">More articles:</h4>
       <PrevNext :prev="prev" :next="next" class="mt-8 mb-8" />

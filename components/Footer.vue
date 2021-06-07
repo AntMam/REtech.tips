@@ -10,7 +10,7 @@
       <form name="contact" action="/thank-you" method="POST" data-netlify="true">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
           <input type="hidden" name="form-name" value="contact" />
-          <input type="email" v-model="email" name="email" placeholder="Enter your email address" class="rounded mc text-center border-2 border-gray-500" required>
+          <input type="email" v-model="email" name="email" placeholder="Email" class="rounded mc text-center border-2 border-gray-500" required>
           <input type="submit" name="subscribe" value="Subscribe" class="mc-btn rounded px-2 py-1 w-full" :disabled="!email">
         </div>
       </form> 
