@@ -84,10 +84,35 @@ export default {
     meta: [
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
       {
-        hid: 'description',
-        name: 'description',
+        hid: 'tag-description',
+        name: 'tag-description',
         content: this.tag.description
-      }
+      },
+      {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.tag.name + ' - real estate tech tips'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.tag.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.tag.img
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: this.tag.img
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'retech.tips/blog/tag' + this.tag.slug
+        },
     ]
   }
 }
