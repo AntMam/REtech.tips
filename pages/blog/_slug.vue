@@ -107,7 +107,12 @@ export default {
           hid: 'og:image:alt',
           property: 'og:image:alt',
           content: this.article.title
-        }
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article'
+        },
     ]
   }
 }
