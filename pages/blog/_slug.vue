@@ -82,7 +82,42 @@ export default {
         hid: 'description',
         name: 'description',
         content: this.article.description
-      }
+      },
+      {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.article.title
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.article.description
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.article.img
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: this.article.img
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: this.article.title
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'article'
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: process.env.HOST_NAME + '/' + this.article.slug
+        },
     ]
   }
 }
