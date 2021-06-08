@@ -14,8 +14,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
+        hid: 'home-description',
+        name: 'home-description',
         content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
       }
     ],
