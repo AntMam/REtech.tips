@@ -91,7 +91,7 @@ export default {
       {
           hid: 'og:title',
           property: 'og:title',
-          content: this.tag.title + ' - real estate tech tips'
+          content: this.tag.name + ' - real estate tech tips'
         },
         {
           hid: 'og:description',
