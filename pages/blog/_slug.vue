@@ -113,6 +113,11 @@ export default {
           property: 'og:type',
           content: 'article'
         },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: process.env.HOST_NAME + '/' + this.article.slug
+        },
     ]
   }
 }
