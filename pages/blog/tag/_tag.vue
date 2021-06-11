@@ -113,6 +113,26 @@ export default {
           property: 'og:url',
           content: 'retech.tips/blog/tag' + this.tag.slug
         },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.tag.name + ' - real estate tech tips'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.tag.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.tag.img
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.tag.name + ' - real estate tech tips'
+        }
     ]
   }
 }

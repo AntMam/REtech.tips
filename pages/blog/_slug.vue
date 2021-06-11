@@ -118,6 +118,26 @@ export default {
           property: 'og:url',
           content: 'retech.tips/blog/' + this.article.slug
         },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.article.title 
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.article.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.article.img
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.article.title
+        }
     ]
   }
 }

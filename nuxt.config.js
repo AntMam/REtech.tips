@@ -17,7 +17,17 @@ export default {
         hid: 'home-description',
         name: 'description',
         content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
-      }
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Real Estate Tech Tips'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
