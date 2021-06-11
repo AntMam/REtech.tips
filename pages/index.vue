@@ -82,22 +82,17 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.articles[-1].img
+          content: this.articles[0].img
         },
         {
           hid: 'og:image:secure_url',
           property: 'og:image:secure_url',
-          content: this.articles[-1].img
-        },
-        {
-          hid: 'og:image:alt',
-          property: 'og:image:alt',
-          content: this.articles[-1].title
+          content: this.articles[0].img
         },
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: this.articles[-1].img
+          content: this.articles[0].img
         },
     ]
   }
