@@ -78,7 +78,16 @@ export default {
   return {
     meta: [
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-
+         {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'REtech.tips'
+        },
+         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'retech.tips'
+        },
         {
           hid: 'og:image',
           property: 'og:image',
