@@ -85,7 +85,7 @@ export default {
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
       {
         hid: 'tag-description',
-        name: 'tag-description',
+        name: 'description',
         content: this.tag.description
       },
       {
