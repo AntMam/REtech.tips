@@ -14,10 +14,25 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'home-description',
-        name: 'description',
+        hid: 'og:home-description',
+        name: 'og:description',
         content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
-      }
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Real Estate Tech Tips'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },

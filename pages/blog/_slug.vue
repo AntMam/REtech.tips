@@ -79,19 +79,14 @@ export default {
     meta: [
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
       {
-        hid: 'article-description',
-        name: 'description',
+        hid: 'og:article-description',
+        name: 'og:description',
         content: this.article.description
       },
       {
           hid: 'og:title',
           property: 'og:title',
           content: this.article.title
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: this.article.description
         },
         {
           hid: 'og:image',
@@ -118,6 +113,26 @@ export default {
           property: 'og:url',
           content: 'retech.tips/blog/' + this.article.slug
         },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.article.title 
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.article.description
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.article.img
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.article.title
+        }
     ]
   }
 }

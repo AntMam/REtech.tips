@@ -73,7 +73,39 @@ export default {
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
         return new Date(date).toLocaleDateString('en', options)
     }
+  },
+    head() {
+  return {
+    meta: [
+      // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+         {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'REtech.tips'
+        },
+         {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'retech.tips'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: this.articles[0].img
+        },
+        {
+          hid: 'og:image:secure_url',
+          property: 'og:image:secure_url',
+          content: this.articles[0].img
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.articles[0].img
+        },
+    ]
   }
+}
 }
 </script>
 
