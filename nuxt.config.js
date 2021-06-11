@@ -15,7 +15,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'home-description',
-        name: 'home-description',
+        name: 'description',
         content: 'Real Estate Tech Tips. Exploring ways technology can empower real estate businesses.'
       }
     ],
