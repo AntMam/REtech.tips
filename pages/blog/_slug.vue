@@ -79,19 +79,14 @@ export default {
     meta: [
       // hid is used as unique identifier. Do not use `vmid` for it as it will not work
       {
-        hid: 'article-description',
-        name: 'description',
+        hid: 'og:article-description',
+        name: 'og:description',
         content: this.article.description
       },
       {
           hid: 'og:title',
           property: 'og:title',
           content: this.article.title
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: this.article.description
         },
         {
           hid: 'og:image',
