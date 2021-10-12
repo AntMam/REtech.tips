@@ -57,7 +57,7 @@ __The list goes on. In order to compete, professionals will need to learn and ad
 
 ## The goal of REtech.tips is to provide valuable information on how to utilize these new technologies.  
 
-We will write about real ways these tools can make your work more efficient. We'll include templates, tutorials, processes, and other content designed to provide the most valuable information. Subscribe to the newsletter, we'll send you updates when new articles are posted.
+We will write about real ways these tools can make your work more efficient. We'll include templates, tutorials, processes, and other content designed to provide the most valuable information. Subscribe to the newsletter, we'll send you updates when new articles are posted. 
 
 
 
